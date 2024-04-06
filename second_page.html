@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title icon -->
+    <title>The Hood Coffee</title>
+    <link rel="icon" href="images/icon_logo.svg">
+
+    <!-- Bootstrap/ CSS Link/Font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="second_page.css">
+    <!-- JS link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER NAVBAR -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="main.html#about_us">About us</a>
+                        </li>
+                    <li class="nav-item ">
+                    <a class="nav-link" href="main.html#products">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://food.grab.com/ph/en/restaurant/the-hood-coffee-bacolor-delivery/2-C6AGGTXKCJATHA?">Order</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="main.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="second_page.html">Faqs</a>
+                    </li>
+                    
+                </ul>
+            </div>
+          </nav>
+    </header>
+    <section class="Questions">
+        <div class="forms">
+            <h1>How can we help you?</h1>
+            <form action="https://www.google.com/search" method="GET" class="searchbar">
+              <input type="text" name="q" placeholder="Type questions to find answers">
+              <button type="submit"><img src="images/search-button.png" alt=""></button>
+          </form>
+          
+            <p>You can also browse the topics below to find what you are looking for;</p>
+        </div>
+    </section>
+    <section class="Faqs">
+        <h1>Frequently Asked Questions</h1>
+        <ul id="accordion">
+          <li>
+            <label for="first">What is The Hood Coffee? <span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="first" checked>
+            <div class="content">
+              <p>
+                We started our first branch in Bacolor The Hood Coffee last October of 2023, and are trying our best to grow the business and taking our journey to commit excellence, innovation, and customer satisfaction.
+              </p>
+            </div>
+          </li>
+          <li>
+            <label for="second">What should I order?<span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="second" >
+            <div class="content">
+              <p>
+                We recommend our bestsellers for coffee; The Hood Coffee, Spanish Latte and Barista's Special. For non-coffee; Matcha Latte, Strawberry Latte and Chocolate Latte.
+              </p>
+            </div>
+          </li>
+          <li>
+            <label for="third">Is Wi-Fi available?<span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="third" >
+            <div class="content">
+              <p>
+                As a coffee shop conducive for both working and just hanging out. Wi-fi access is given to customers upon ordering and up to two devices can be connected to the access given for two hours. Sockets are also available around the branches where you can plug in your devices for extra convenience.
+              </p>
+            </div>
+          </li>
+          <li>
+            <label for="fourth">What time do you open and close?<span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="fourth" >
+            <div class="content">
+              <p>
+                We try to acommodate our costumer from 9 A.M to 10 P.M. From Monday to Saturday bringing coffee for students, workers or just coffee enjoyers.
+              </p>
+            </div>
+          </li>
+          <li>
+            <label for="fifth">Where is the store located?<span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="fifth" >
+            <div class="content">
+              <p>
+                We just opened our first branch with the hopes of growing to other places, but for now we are located at Don Ceferino Joven, Bacolor, Pampanga. We can also be search on Google Maps as The Hood Coffee.
+              </p>
+            </div>
+          </li>
+          <li>
+            <label for="sixth">Do you do deliveries?<span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="sixth" >
+            <div class="content">
+              <p>
+                We do deliveries through our website. We also deliver through Grab just click the order button on the top it will redirect you to the page.
+              </p>
+            </div>
+          </li>
+          <li>
+            <label for="seventh">Do you do  late night deliveries?<span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="seventh" >
+            <div class="content">
+              <p>
+                As of the moment we only deliver at running hours. Maybe in the future we will explore the option of 24 hours delivery as coffee never sleeps.
+              </p>
+            </div>
+          </li>
+          <li>
+            <label for="eigth">What are your payment options?<span>&#x3e;</span></label>
+            <input type="radio" name="accordion" id="eigth" >
+            <div class="content">
+              <p>
+                On walk-ins we accept payment as Cash, Debit/Credit card, PayMaya and Gcash. For orders made online we accept Cash on Delivery, Debit/Credit card, PayMaya and Gcash.
+              </p>
+            </div>
+          </li>
+        </ul>  
+    </section>
+    <section class="Feedbacks" id="Feedbacks">
+      <h1>Give us feedbacks</h1>
+      <div class="feedbacks-container">
+        <div class="complain">
+          <h5>What are your concerns?</h5>
+          <form action="" class="complain-box">
+            <textarea name="combox" id="complain-box" cols="30" rows="10" placeholder="Type your feedbacks here and fill out the information beside to properly file your concerns..."></textarea>
+          </form>
+        </div>
+        <div class="information">
+          <form action="" class="inforform">
+            <h5>Input your account information:</h5>
+            <div class="account">
+              <label for="fname">First Name:</label>
+              <input type="text" placeholder="First Name" id="fname">
+              <label for="lname">Last Name:</label>
+              <input type="text" placeholder="Last Name" id="lname">
+              <label for="age">Age:</label>
+              <input type="number" placeholder="Age" id="age">
+              <label for="gender">Gender:</label>
+              <input type="text" placeholder="Gender" id="gender">
+              <label for="email">Email:</label>
+              <input type="email" placeholder="Email" id="email">
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+           
+                
+    <footer >
+      <div class="footer_link">
+          <a href="main.html" >Home</a>
+          <a href="main.html#about_us" >About</a>
+          <a href="main.html#products" >Menu</a>
+          <a href="#Feedbacks" >Feedback</a>
+          <a href="second_page.html" >FAQs</a>
+      </div>
+      <hr>
+
+      <div class="footer_copyrights">
+          <p>© 2024 The Hood Coffee. All rights reserved.</p>
+      </div>       
+  </footer>
+</body>
+</html>
